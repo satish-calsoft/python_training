@@ -1,4 +1,5 @@
 Python course:
+----------------
 
 Introduction
 ------------
