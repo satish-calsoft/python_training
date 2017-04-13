@@ -1,30 +1,28 @@
-l1 = [1,4,2,5,7,3]
-l2 = [8,1,2,5,10,11,23]
-l3 = []
-#1 in l2:yes
-#4 in l2:no
-#2 in l2:yes
+#Logic 1
+list1 = [1,4,2,5,7,3]
+list2 = [8,1,2,5,10,11,23]
+list3 = []
 
-for i in l1 :
-    if  i in l2:
+for i in list1 :
+    if  i in list2:
         continue
     else:
-        l3.append(i)
-for i in l2:
-    if i in l1:
+        list3.append(i)
+for i in list2:
+    if i in list1:
         continue
     else:
-        l3.append(i)
+        list3.append(i)
 
-print "l1=",l1
-print "l2=",l2
-print "l3=",l3
+print "list3=",list3
 
-l4=l1+l2
-l5=[]
-for k in l4:
-    if k in l1 and k in l2:
+#Logic 2
+
+list4=list1+list2
+list5=[]
+for k in list4:
+    if k in list1 and k in list2:
         continue
     else:
-        l5.append(k)
-print "l5=",l5
+        list5.append(k)
+print "list5=",list5
