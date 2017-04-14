@@ -17,9 +17,9 @@
 for i in range(1,50):
     for j in range(1,50):
         for k in range(1,50):
-           if i*i + j*j == k*k:
+            if i*i + j*j == k*k:
                #print "ijk"
-               flag=1
-               if flag==1:
-                   l=[i,j,k]
-                   print l
+                flag=1
+                if flag==1:
+                    l=[i,j,k]
+                    print l
