@@ -17,12 +17,12 @@
 #print a
 #print 
 
-a=['*',"*","*"]
-a[1]=" "
+a=["*","*","*","*","*","*"]
 print a
 for i in range(len(a)):
-    s=a[i]
-    if i<(len(a)-1) and i!=0:
-        a[i]="2"
+    if i%2!=0:
+        a[i]=" "
+    
 print a
+        
         
