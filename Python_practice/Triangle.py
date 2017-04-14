@@ -1,7 +1,7 @@
 #Triangle program
 a="*"
-b=int(raw_input("Enter a value"))
-c=" "
+b=int(raw_input("Enter a value::"))
+
 i=1
 s=""
 l=b*2
