@@ -1,3 +1,4 @@
+#Triangle program
 a="*"
 b=int(raw_input("Enter a value"))
 c=" "
