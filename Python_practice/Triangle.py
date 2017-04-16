@@ -5,6 +5,7 @@ b=int(raw_input("Enter a value::"))
 i=1
 s=""
 l=b*2
+k=""
 
 for j in range(l):
     if j%2==0:
@@ -18,6 +19,7 @@ for j in range(l):
                     s[i]=" "            
             s="".join(s)
             print s.center(l)
+            
         elif j==l-1:
             s=list(s)
             for i in range(len(s)):
@@ -25,9 +27,13 @@ for j in range(l):
                     s[i]=" "  
             s="".join(s)
             print s
+            
         
         else:
             print s.center(l)
+            
+    
+
             
            
 
