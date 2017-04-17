@@ -1,12 +1,12 @@
 #!/usr/bin/python
 a=raw_input("Enter the character: ")
-width=4
-height=4
+range1=input("Enter the range: ")
 
-print a*width
-for i in range(height-2):
-    print a*1+' '*(width-2)+a*1
-print a*width
+
+print (a+' ')*range1
+for i in range(range1-2):
+    print a*1+' '*(range1*2-3)+a*1
+print (a+' ')*range1
     
     
     

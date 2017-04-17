@@ -1,10 +1,12 @@
-#!/usr/bin/python
-a=raw_input("Enter the character: ")
+x='*'
+##Right Triangle
+'''for i in range(0,5):
+    print x*i'''
 
-i=1
-width=3
-for i in range(width):
-    i+=1
-    
-    print i
-    print a.rjust(14-(i*3))*i
+space= 10
+height=input("Enter the height: ")
+print ' '*(space-4)+x
+for i in range(1,height):
+    print ' '*((space/2)-i)+x+' '*(space/4)*i+x
+print ' '+x*(space)
+
