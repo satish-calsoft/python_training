@@ -1,14 +1,14 @@
-flag=0
-i=2
-n=input("enter n:")
-while i<n:
-        if n%i == 0:
-                flag==1
-                break
-        i=i+1
-if flag==1:
-        print "hai"
-                
+
+n=input("enter n: ")
+count=0
+if n==1:
+                print "prime number"
+else:
+                for i in range(1,n+1):
+                                if n%i==0:
+                                                count=count+1
+                if count==2:
+                                print "Prime number"
+                else:
+                                print "not a prime number"
     
-            
-        
