@@ -1,12 +1,8 @@
-l=[1, 9, 8, 6, 5, 3, 4]
-s=[]
-for i in l:
-    for j in range(len(l)):
-        if i<=l[j]:
-            s.append(i)
-            
-        
-
-    
-print s
+lst=[1, 9, 8, 6, 1,2,5,3, 4]
+for i in range(len(lst)):
+            if i !=(len(lst)-1):
+                        if lst[i]<=lst[i+1]:
+                                    lst[i],lst[i+1]=lst[i+1],lst[i]
+            import pdb;pdb.set_trace()
+print lst
         
