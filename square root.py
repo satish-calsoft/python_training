@@ -1,4 +1,4 @@
-# display a,b,a values from this formula c**2=a**2+b**2 for a given range
+# display a,b,c values from this formula c**2=a**2+b**2 for a given range
 from math import sqrt
 a = input("enter range:")
 for i in range(1,a):
