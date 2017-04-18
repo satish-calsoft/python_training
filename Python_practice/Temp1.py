@@ -17,13 +17,21 @@
 #print a
 #print 
 
-a=["*","*","*","*","*","*"]
-print a
-for i in range(len(a)):
-    if i%2!=0:
-        a[i]=" "
-    
-print a
-        
-        
-if :
+#a=["*","*","*","*","*","*"]
+#print a
+#for i in range(len(a)):
+#    if i%2!=0:
+#        a[i]=" "
+#    
+#print a
+#        
+#        
+#if :
+
+a=-1
+b=1
+
+if a>b:
+    print "Yes"
+else:
+    print "No"
