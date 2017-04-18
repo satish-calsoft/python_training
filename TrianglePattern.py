@@ -2,11 +2,15 @@ x='*'
 ##Right Triangle
 '''for i in range(0,5):
     print x*i'''
+a=input("Enter the value: ")
+for i in range(0,a):
+    if i==0:
+        print ' '*(a-i)+'*'
+    elif i<a-1:
+        print ' '*(a-i)+'*'+' '*i*2+'*'
+    elif i==a-1:
+        print ' '*(a-i)+'* '*(i+1)
+        
 
-space= 10
-height=input("Enter the height: ")
-print ' '*(space-4)+x
-for i in range(1,height):
-    print ' '*((space/2)-i)+x+' '*(space/4)*i+x
-print ' '+x*(space)
+    
 
