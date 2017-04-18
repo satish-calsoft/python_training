@@ -3,6 +3,6 @@ for i in range(len(lst)):
             if i !=(len(lst)-1):
                         if lst[i]<=lst[i+1]:
                                     lst[i],lst[i+1]=lst[i+1],lst[i]
-            import pdb;pdb.set_trace()
+            
 print lst
         
