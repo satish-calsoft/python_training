@@ -22,11 +22,11 @@ l2 = [8,1,2,5,10,11,23,100]
             #l5.append(b)
 #print l5
 ###############################
-l6=[]
-for a in l1:
-    if a not in l2:
-        l6.append(a)
-for b in l2:
-    if b not in l1:
-        l6.append(b)
-print l6
+#l6=[]
+#for a in l1:
+    #if a not in l2:
+        #l6.append(a)
+#for b in l2:
+    #if b not in l1:
+        #l6.append(b)
+#print l6
