@@ -13,12 +13,12 @@ def Tri(userValue):
     for i in range(userValue):   
         if userValue <= 2:
             print dec*" "+inc*"* "
-                         
         elif i <= i < (userValue-1):
             print dec*" "+"* "+(2*i-2)*" "+"* "
+        elif i = 1:
+            print dec*" "+"* "+(2*i-1)*" "+"* "
         elif i == userValue-1:
             print dec*" "+inc*"* "
-        #print dec*" "+inc*"* "
         dec = dec - 1
         inc = inc + 1        
            
