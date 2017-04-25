@@ -151,21 +151,21 @@ for i in random.sample(dict2.keys(),15):
         if val1 == 5 or val1 == 10 :
             print "You have entered check point"  
     else :
-        print "Wrong answer and please SMS the answer to SATISH VARMA"
+        print "Wrong answer.... please call  SATISH VARMA for the answer "
         break
 
 # Money comaprison
         
 if val1 > 5 and val1 < 10 and k != '1':
     val1 = 5
-    print "Congrats! You have earned a money of %d" %money[val1]
+    print "Congrats! You have earned a money of %d..Please call satish for the Money" %money[val1]
 elif val1 >10 and val1 < 15 and k != '1':
     val1 = 10
-    print "Congrats! You have earned a money of %d" %money[val1]
+    print "Congrats! You have earned a money of %d..Please call satish for the Money" %money[val1]
 elif k == '1':
-    print "Congrats! You have earned a money of %d" %money[val1]
+    print "Congrats! You have earned a money of %d..Please call satish for the Money" %money[val1]
 else:
-    print "Congrats! You have earned a money of %d" %money[val1]
+    print "Congrats! You have earned a money of %d..Please call satish for the Money" %money[val1]
 
 
     

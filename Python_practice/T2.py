@@ -39,12 +39,40 @@ i =[1,2,3]
 #k = len(choice)
 #print k
 
-opt =["A","B","C","D"]
+#opt =["A","B","C","D"]
+
+
+#f1 =raw_input("Enter a string:")
+#f2 = raw_input("Enter a substring to replace:")
+#f3 = raw_input("enter a substring to replace with")
+#
+#
+#f1 = f1.split(f2)
+#print f1
+#
+#k=""
+#for i in f1:
+#    k =k+i+f3
+#    
+#print k
+
+#s1 ="saisai"
+#
+#l1 = []
+#
+#for i in s1:
+#    if i == "s":
+#        continue
+#    else:
+#        l1.append(i)
+#        
+#print l1       
 
 
 
 
 
 
-
+    
+   
     
