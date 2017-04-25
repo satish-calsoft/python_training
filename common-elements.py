@@ -13,14 +13,14 @@ l2 = [8,1,2,5,10,11,23,100]
         #l4.append(a)
 #print l4
 ############################
-#l5=[]
-#for a in l1:
-    #for b in l2:
-        #if a not in l2:
-            #l5.append(a)
-        #elif b not in l1:
-            #l5.append(b)
-#print l5
+l5=[]
+for a in l1:
+    for b in l2:
+        if a not in l2:
+            l5.append(a)
+        elif b not in l1:
+            l5.append(b)
+print l5
 ###############################
 #l6=[]
 #for a in l1:
