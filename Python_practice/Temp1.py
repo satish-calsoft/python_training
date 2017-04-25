@@ -28,10 +28,20 @@
 #        
 #if :
 
-a=-1
-b=1
+#a=-1
+#b=1
+#
+#if a>b:
+#    print "Yes"
+#else:
+#    print "No"
 
-if a>b:
-    print "Yes"
-else:
-    print "No"
+
+
+def sum(**args):
+    
+    print args
+    result = args['a']+args['b']+args['c']
+    print result
+    
+sum(a=1,b=2,c=3)

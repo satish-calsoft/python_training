@@ -1,26 +1,33 @@
-print "Calculator\n"
-import  math
-def add1(x,y):
-    
-    return x+y
-    
-def sub1(x,y):
-    
-    return x-y
+print "CALCULATOR\n"
+import math
 
-def mul1(x,y):
+def plus(i,result):
     
-    return x*y
+    result = result + float(i)
+    return result
 
-def div1(x,y):
+def minus(i,result):
     
-    return x/y
+    result = result - float(i)
+    return result
 
-def power1(x,y):
-    return x**y
+def multi(i,result):
+    
+    result = result * float(i)
+    return result
 
-def sqrt(x):
-    return math.sqrt(x)
+def div(i,result):
+    
+    result = result / float(i)
+    return result
+
+def sqrt(result):
+    
+    return math.sqrt(result)
+
+def power(i,result):
+    
+    return math.pow(result,i)
 
 def sin(x):
     return math.sin(x)
@@ -33,62 +40,70 @@ def tan(x):
 
 
 
-choice1=int(raw_input("Select one operation to perform:\n1:Addition \n2:Subtraction\n3Multiplication\n4:Divison\n5.xpowery\n6.squareroor\n"
-                      "7.sin\n8.cos\n9.tan\n"))
-        
-if choice1==1:
-    
-    int1=int(raw_input("Enter first value::"))
-    int2=int(raw_input("Enter second value::"))    
-    print "int1+int2=",add1(int1,int2)
-    
-elif choice1==2:
-    int1=int(raw_input("Enter first value::"))
-    int2=int(raw_input("Enter second value::"))    
-    print "int1-int2=",sub1(int1,int2)
-    
-elif choice1==3:
-    
-    int1=int(raw_input("Enter first value::"))
-    int2=int(raw_input("Enter second value::"))    
-    print "int1*int2=",mul1(int1,int2)
-elif choice1==4:
-    
-    int1=int(raw_input("Enter first value::"))
-    int2=int(raw_input("Enter second value::"))
-    
-    if int2==0:
-        print "%d is not divisble by %d" %(int1,int2)
-    else:
-        print "int1/int2=",div1(int1,int2)
-        
-elif choice1==5:
-    
-    int1=int(raw_input("Enter first value::"))
-    int2=int(raw_input("Enter second value::"))    
-    print "xpowery=",power1(int1,int2)
-    
-elif choice1==6:
-    
-    int1=int(raw_input("Enter a value::"))
-    print "sqrt(int1)=",sqrt(int1)
-    
-elif choic1==7:
-    
-    int1=int(raw_input("Enter a value::"))
-    print "sin(int1)=",sin(int1)
-    
-elif choic1==8:
-    
-    int1=int(raw_input("Enter a value::"))
-    print "cos(int1)=",cos(int1)
+result = float(input("Enter a number :"))
 
-elif choic1==9:
+while 1:
     
-    int1=int(raw_input("Enter a value::"))
-    print "tan(int1)=",tan(int1)
+    op1 = raw_input("1->+   2->-   3->*  4->/  5->=sqrt 6->pow(x,y) 7->sin 8->cos  9->tan   10->= \n " )
     
-else:
-    print "Select correct choice"
+    if op1 == "1":
+        int1 =input("Enter a number to perform operation::")
+        result = plus(int1,result)
+        
+        print result
+    elif op1 == "2":
+        int1 =input("Enter a number to perform operation::")
+        result = minus(int1,result)
+        print result
+        
+    elif op1 == "3":
+        int1 =input("Enter a number to perform operation::")
+        result = multi(int1,result)
+        print result
+        
+    elif op1 == "4":
+        while 1:
+            int1 =input("Enter a number to perform operation::")
+            if int1 == 0:
+                print "value not divisible by 0"
+            else:
+                result = div(int1,result)
+                print result   
+                break
+            
+    elif op1 == "5":
+        
+        result = sqrt(result)
+        print result
+        
+    elif op1 == "6":
+        int1 =input("Enter a number to perform operation::")
+        result = power(int1, result)
+        print result
     
+    elif op1 == "7":
+        
+        result = sin(result)
+        print result
+          
+    elif op1 == "8":
+        
+        
+        result = cos(result)
+        print result
+        
+    elif op1 == "9":
+        
+        
+        result = tan(result)
+        print result    
+             
+        
+    elif op1 == "10":
+        print "result=",result
+        break
+    
+    
+    else:
+        print "Select correct option::"
     
