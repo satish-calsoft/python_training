@@ -1,15 +1,13 @@
 Actual_Str=raw_input("Enter the actual string: ")
 Input_Str=raw_input("Enter the input string: ")
 
-for i in Actual_Str:
-    for j in Input_Str:
-        if i==j:
+if len(Actual_Str)==len(Input_Str):
+    for i in Actual_Str:
+        if i in Input_Str:
             print "Identical", i
+        else:
+            print "Not Identical"
             break
-#print i
+
         
-'''if Actual_Str == Input_Str:
-    print "Indentical"
-else:
-    print "Non Identical"'''
 
