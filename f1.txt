@@ -1,0 +1,3 @@
+There way of reading file is not always a good idea, a file can be very large to read and fit in   the  swap_memory. It is always better to read a known size of the file and write that to the new file.
+These way of reading file is not always a good idea, a file can be very large to read and fit in the memory. It is always better to read a known size of the file and write that to the new file.
+This way of reading file is not always a good idea, a file can be very large to read and fit in the memory. It is always better to read a known size of the file and write that to the new file.

@@ -1,7 +1,7 @@
 
 mek={"who r yu?":['man','coder','animal','human'],'What is first alphabate?':['b','a','c','z'],'how many angles of a triangle?':['Not have any','Two','Three','So Many'],'how many edgs of a square?':['1','2','3','4'],'What is Basic need for humanlife?':['money','water','air','None of These'],'what is python?':['pop','oop','sap','tcp/ip']}
 mek_ans={"who r yu?":'a','What is first alphabate?':'b','how many angles of a triangle?':'c','how many edgs of a square?':'d','What is Basic need for humanlife?':'b','what is python?':'b'}
-mek_prize_amounts={'who r yu?':1000,'What is first alphabate?':2000,'how many angles of a triangle?':3000,'how many edgs of a square?':4000,'What is Basic need for humanlife?':10000,10:320000}
+#mek_prize_amounts={'who r yu?':1000,'What is first alphabate?':2000,'how many angles of a triangle?':3000,'how many edgs of a square?':4000,'What is Basic need for humanlife?':10000,10:320000}
 prize_amount=0
 count=0
 def fun(i):

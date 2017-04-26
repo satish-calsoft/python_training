@@ -1,6 +1,7 @@
 def prime(n):
     #n=input("enter n: ")
     count=0
+    l=[]
     if n==1:
         print n
     else:
@@ -9,6 +10,10 @@ def prime(n):
                 count=count+1
         if count==2:
             print n
+            l.append(n)
+    print l
+    return l
+
         #else:
          #   print "not a prime number"
 
