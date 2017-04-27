@@ -34,48 +34,44 @@ fp = open("file1.txt","r")
 st1 = raw_input("Enter a key to search and no.of occurences:")
 str1 = fp.read()
 
-#in fp.read we can give no.of characters to read
-#print str1
-str1 =str1.split()
-print str1
-
 j = 0
-
-str2 =""
-
-for i in str1:
-    
-    if i == st1:
-        j = j+1
-    elif st1 in i :
-        print i
-print "count is:",j
+ind1 = 0 
 
 
-
+sub1 =raw_input("Enter a substring to replace::")
 
 fp.seek(0,0)
-str1 = fp.readlines()
+str1 = fp.read()
+str1 =str1.split()
+
+for it1 in range(len(str1)):
+    if st1 == str1[it1]:
+        str1[it1] = sub1
+        j = j+1
+    elif st1 in str1[it1]:
+        print "%s exists in %s" %(st1,str1[it1])
+
+print "count=",j
+str1 = " ".join(str1)
+print str1
 
 
-ind1 = 0 
-j = 0
-for i in range(len(str1)):
-    if st1 in str1[i]:
+#fp.seek(0,0)
+#str1 = fp.readlines()
+#line = 0
+#for i in str1:
+#    if st1 in i:
+#        
+#        ind1 = 0
+#        x = i.count(st1)
+#        print "x =",x
+#        for j in range(x):
+#            
+#            ind1 = i.index(st1,ind1)
+#            
+#            print "line no :%d position::%d" %(line,ind1)
+#            ind1 = ind1 + 1
+#        line = line+1
         
-        print "line number=%d" %i   
-        x = str1[i].count(st1)
-        for j in range(x):
-            
-            ind1 =str1[i].index(st1,ind1)
-            print "position::",ind1
-            ind1 = ind1+1
-        
+    
 fp.close()
-
-
-
-
-
-
-
