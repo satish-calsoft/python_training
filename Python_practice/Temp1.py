@@ -38,10 +38,17 @@
 
 
 
-def sum(**args):
-    
-    print args
-    result = args['a']+args['b']+args['c']
-    print result
-    
-sum(a=1,b=2,c=3)
+#def sum(**args):
+#    
+#    print args
+#    result = args['a']+args['b']+args['c']
+#    print result
+#    
+#sum(a=1,b=2,c=3)
+
+
+s="asisai"
+i =0
+print s.index("s",i)
+i = s.index("s")
+print s.index("s",i+1)

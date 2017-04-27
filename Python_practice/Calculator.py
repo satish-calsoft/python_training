@@ -1,6 +1,18 @@
 print "CALCULATOR\n"
 import math
 
+def value():
+    
+    while 1:
+        
+        int1 =input("Enter a number to perform operation::")
+        backspace = raw_input("BP to remove the value:")
+        if backspace == "BP":
+            int1 = 0
+        else:
+            break 
+    return int1
+
 def plus(i,result):
     
     result = result + float(i)
@@ -40,30 +52,31 @@ def tan(x):
 
 
 
-result = float(input("Enter a number :"))
+result = float(value())
 
 while 1:
     
-    op1 = raw_input("1->+   2->-   3->*  4->/  5->=sqrt 6->pow(x,y) 7->sin 8->cos  9->tan   10->= \n " )
+    op1 = raw_input("Choose a option::\n 1.Addition \n 2.Subtraction  \n 3.Multiplication \n 4.Divison \n  5.sqrt \n 6.pow(x,y) \n 7.sin  \n 8.cos \n 9.tan  \n 10.Result  " )
     
     if op1 == "1":
-        int1 =input("Enter a number to perform operation::")
+        
+        int1 =value()
         result = plus(int1,result)
         
         print result
     elif op1 == "2":
-        int1 =input("Enter a number to perform operation::")
+        int1 =value()
         result = minus(int1,result)
         print result
         
     elif op1 == "3":
-        int1 =input("Enter a number to perform operation::")
+        int1 =value()
         result = multi(int1,result)
         print result
         
     elif op1 == "4":
         while 1:
-            int1 =input("Enter a number to perform operation::")
+            int1 =value()
             if int1 == 0:
                 print "value not divisible by 0"
             else:
@@ -77,7 +90,7 @@ while 1:
         print result
         
     elif op1 == "6":
-        int1 =input("Enter a number to perform operation::")
+        int1 =value()
         result = power(int1, result)
         print result
     
