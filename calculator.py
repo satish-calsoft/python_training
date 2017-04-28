@@ -171,7 +171,7 @@ if a.isupper() or a.islower() :
         print tan(x)
         
 else:
-    print " its not a valid entry"
+    print "its not a valid entry please select operation in above list"
     
     
     
