@@ -15,11 +15,11 @@ for i in dict1.values():
 for j in i:
     if j == i[0]:
         
-        print "|",'{:-<{g}}'.format("-",g=str(g1)),
+        print "+",'{:-<{g}}'.format("-",g=str(g1)),
         
     else:
-        print "|",'{:-<10}'.format("-"),
-print "|"
+        print "+",'{:-<10}'.format("-"),
+print "+"
 
 for i in dict1.values():
       
@@ -35,10 +35,10 @@ for i in dict1.values():
     for j in i:
         if j == i[0]:
             
-            print "|",'{:-<{g}}'.format("-",g=str(g1)),
+            print "+",'{:-<{g}}'.format("-",g=str(g1)),
             
         else:
-            print "|",'{:-<10}'.format("-"),
-    print "|"
+            print "+",'{:-<10}'.format("-"),
+    print "+"
     
     
