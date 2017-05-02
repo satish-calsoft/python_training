@@ -12,12 +12,12 @@ with open("circle.py","r+") as f:
             j = b.index(i)
             b.pop(j)
             b.insert(j, "job")
-   # print b
-    f.seek(0)
-    for i in b:
-        f.write(i)
-    f.seek(0)
-    print f.read()
+    print b
+    #f.seek(0)
+    #for i in b:
+        #f.write(i)
+    #f.seek(0)
+    #print f.read()
   # print a = a.split("bob")
 ################################  
    # spt = (" ","\n")
