@@ -6,7 +6,5 @@ for i in range(2,a):
             break
         elif i==j and i%j==0:
             s.append(i)
-        else:
-            continue
 print s
         
