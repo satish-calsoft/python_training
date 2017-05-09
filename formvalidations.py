@@ -3,7 +3,7 @@
  
 #c = {"u_name":"ravi","l_name":"babu", "passwd":"tehelka", "mob_no":283982983, "email":"abc@gmail.com"}
 import re
-def submit(**args):
+def _submit(**args):
     print args.keys()
     for v in args.keys():
         
@@ -37,5 +37,5 @@ def submit(**args):
             if  not args[v].isalpha() or  " " in args[v]: print "******Enter valid last name*********"
             else: print "Valid Last name"
        
-submit(u_name= "Ravi", l_name = "raja", passwd = "teheLk@1", mob_no="23982983", email = "abc@gmail.com ")
-#submit(u_name= "Ravi", l_name = "dsdas", passwd = "teheLk1", mob_no="23982983", email = "")
+_submit(u_name= "Ravi", l_name = "raja", passwd = "teheLk@1", mob_no="23982983", email = "abc@gmail.com ")
+

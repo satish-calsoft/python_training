@@ -1,3 +1,3 @@
 ##########
-import add
-print add(2,3)
+from formvalidations import *
+print _submit()

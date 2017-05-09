@@ -4,6 +4,7 @@ for i in range(5):
     x=a[i],b[i]
     print x
 ##########################
+print "#########"
 for i in range(len(a)):
     y= (a[i],b[i])
     print y
