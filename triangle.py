@@ -15,7 +15,7 @@ def Tri(userValue):
             print dec*" "+inc*"* "
         elif i <= i < (userValue-1):
             print dec*" "+"* "+(2*i-2)*" "+"* "
-        elif i = 1:
+        elif i == 1:
             print dec*" "+"* "+(2*i-1)*" "+"* "
         elif i == userValue-1:
             print dec*" "+inc*"* "

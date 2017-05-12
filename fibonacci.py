@@ -4,7 +4,9 @@ def fib(n):
         a,b=b,a+b
     return a
 print fib(5)
-##################
+
+print "##################"
+
 def fibs():
     a,b = 0,1
     yield a
@@ -21,7 +23,9 @@ for fib in fibs():
   if fib > n:
     print "your number is not a Fibonacci number!"
     break
-#####################
+
+print "#####################"
+
 def fibo(m):
     a,b = 0,1
     for i in xrange(m):
