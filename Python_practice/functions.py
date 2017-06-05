@@ -1,10 +1,10 @@
-def sum1(a,b):
+def sum1(a,b,c=5):
     
-    return a+b,0,0
+    return a+b+c
 
-print sum1(1,2)
+print sum1(1,2,3)
 
-
+#ouput 6
 
 # Varable length arguments:if we pass an argument with * the type is tuple
 def sum2(*a):

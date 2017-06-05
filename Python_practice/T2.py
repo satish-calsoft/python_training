@@ -68,11 +68,78 @@ i =[1,2,3]
 #        
 #print l1       
 
+#def fun(list1):
+#    
+#    if isinstance(list1,list):
+#        print "it is list"
+#    else:
+#        print "it is not a list"
+#    
+#        
+#fun(1)
+#fun([1,2,3])
 
 
-
-
-
+#l1 = ["a","b","c","d"]
+#len_str = len(l1)
+#j = 0 
+#list2 = []
+#
+#while j <= len_str:
+#    
+#    
+#    for i in range(len(l1)):
+#        
+#            var1 = i+j
+#            
+#                
+#            if j == 0:
+#                
+#                list2.append("")
+#                break
+#            
+#            elif j == len_str:
+#                
+#                list2.append(l1)
+#                break
+#            
+#            elif var1 > len_str:
+#                
+#                list2.append(l1[i:]+l1[:(var1-len_str)]) 
+#                 
+#                #print "var1 = %d len_str = %d i = %d j = %d" %(var1,len_str,i,j)
+#                #print (l1[i:]+l1[:(var1-len_str)])
+#            else:
+#                list2.append(l1[i:var1]) 
+#
+#                
+#    j = j+1
+#    
+#print list2
+#    
     
+#while 1:
+#    
+#    
+#    k = raw_input("Enter  a character and enter to quit::")
+#    
+#    if k == "":
+#        break
+#    else:
+#        print k
+
+
+#a=0
+#def f1():
+#    def f2():
+#        print "sai"
+#    
+#
+#f1()
+#
+#print dir(f1)
+#    
+
+
    
     
